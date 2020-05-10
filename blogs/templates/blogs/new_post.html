@@ -1,0 +1,11 @@
+<p>
+	<a href="{% url 'blogs:index' %}">Вернуться к новостям</a>
+</p>
+<p>Добавление новости:</p>
+<hr>
+
+<form action="{% url 'blogs:new_post' %}" method="post">
+	{% csrf_token %}
+	{{ form.as_p }}
+	<button name="submit">Сохранить</button>
+</form>

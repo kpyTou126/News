@@ -1,0 +1,15 @@
+{% block content %}
+
+<p>
+	<a href="{% url 'blogs:index' %}">Назад к новостям</a>
+</p>
+
+<p>Редактирование записи:</p>
+
+<form action="{% url 'blogs:edit_post' post.id %}" method="post">
+	{% csrf_token %}
+	{{ form.as_p }}
+	<button name="submit">Сохранить изменения</button>
+</form>
+
+{% endblock content %}
