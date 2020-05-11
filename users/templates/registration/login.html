@@ -1,0 +1,23 @@
+<div style="max-width: 1024px; margin: 0 auto;" class="main">
+	<div style="max-width: 1024px; margin: 0 auto;" class="main">
+	{% extends "blogs/base.html" %}
+
+{% block content %}
+
+<h2>Вход в существующий аккаунт.</h2>
+
+{% if form.errors %}
+  <p>Ваш логин и пароль не подходят. Попробуйте снова.</p>
+{% endif %}
+
+<form action="{% url 'users:login' %}" method="post">
+	{% csrf_token %}
+	{{ form.as_p }}
+
+	<button name="button">Войти</button>
+	<input type="hidden" name="next" value="{% url 'blogs:index' %}">
+</form>
+
+{% endblock content %}
+</div>
+</div>

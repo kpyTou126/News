@@ -1,11 +1,18 @@
+<div style="max-width: 1024px; margin: 0 auto;" class="main">
+	{% extends "blogs/base.html" %}
+
+{% block content %}
 <p>
 	<a href="{% url 'blogs:index' %}">Вернуться к новостям</a>
 </p>
-<p>Добавление новости:</p>
 <hr>
+<h2>Добавление новости:</h2>
 
 <form action="{% url 'blogs:new_post' %}" method="post">
 	{% csrf_token %}
 	{{ form.as_p }}
 	<button name="submit">Сохранить</button>
 </form>
+
+{% endblock content %}
+</div>

@@ -1,0 +1,16 @@
+<div style="max-width: 1024px; margin: 0 auto;" class="main">
+	{% extends "blogs/base.html" %}
+
+{% block content %}
+
+<h2>Регистрация нового пользователя</h2>
+
+<form action="{% url 'users:register' %}" method="post">
+	{% csrf_token %}
+	{{ form.as_p }}
+	<button name="submit">Зарегистрироваться</button>
+	<input type="hidden" name="next" value="{% url 'blogs:index' %}">
+</form>
+
+{% endblock content %}
+</div>

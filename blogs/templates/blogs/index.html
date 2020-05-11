@@ -1,8 +1,7 @@
-{% block content %}
 
 <style>
 	.main {
-		max-width: 600px;
+		max-width: 1024px;
 		margin: 0 auto;
 	}
 	ul {
@@ -11,7 +10,11 @@
 </style>
 
 <div class="main">
-	<h2><a href="{% url 'blogs:index' %}">Последние новости:</a></h2>
+{% extends "blogs/base.html" %}
+
+{% block content %}
+
+	<h2>Последние новости:</h2>
 <hr>
 
 <ul>

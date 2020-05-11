@@ -1,0 +1,11 @@
+<a href="{% url 'blogs:index' %}">Новости</a> - 
+{% if user.is_authenticated %}
+	<span>Здравствуйте, {{ user.username.title }}</span> - 
+	<a href="{% url 'users:logout' %}">Выйти</a>
+{% else %}
+	<a href="{% url 'users:login' %}" align='center'>Войти</a> - 
+	<a href="{% url 'users:register' %}" align='center'>Зарегистрироваться</a>	
+{% endif %}
+
+{% block content %}
+{% endblock content %}
