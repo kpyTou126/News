@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7c6cbc4-d83b-4c99-acee-479b54023f7c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/blogs/templates/blogs/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/templates/blogs/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/templates/blogs/edit_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/templates/blogs/edit_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/templates/blogs/new_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/templates/blogs/new_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/registration/logged_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/registration/logged_out.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/registration/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/registration/register.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1blvr5THXfusLQPXNQUDJJHCgL1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7c6cbc4-d83b-4c99-acee-479b54023f7c" name="Default Changelist" comment="" />
+      <created>1589219689985</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589219689985</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Protection from editing other people's posts.">
+      <created>1589230219628</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589230219628</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Protection from editing other people's posts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Protection from editing other people's posts." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="605" y="0" key="CommitChangelistDialog2" timestamp="1589230329686">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="605" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589230329686" />
+    <state x="670" y="234" key="MultipleFileMergeDialog" timestamp="1589230272601">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="670" y="234" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589230272601" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1589230232244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589230232244" />
+  </component>
+</project>
