@@ -3,8 +3,8 @@
 	<span>Здравствуйте, {{ user.username.title }}</span> - 
 	<a href="{% url 'users:logout' %}">Выйти</a>
 {% else %}
-	<a href="{% url 'users:login' %}" align='center'>Войти</a> - 
-	<a href="{% url 'users:register' %}" align='center'>Зарегистрироваться</a>	
+	<a href="{% url 'users:login' %}">Войти</a> -
+	<a href="{% url 'users:register' %}">Зарегистрироваться</a>
 {% endif %}
 
 {% block content %}

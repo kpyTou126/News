@@ -6,6 +6,7 @@
 	}
 	ul {
 		list-style: none;
+		padding-left: -40px;
 	}
 </style>
 
@@ -20,7 +21,8 @@
 <ul>
 	{% for blog_post in blog_posts %}
 	<li>
-		<h3 style="display: inline-block; margin: 20px 10px 0 0;">{{ blog_post.title }}</h3><span>{{ blog_post.date_added|date:'H:i' }}</span>
+		<h3 style="display: inline-block">{{ blog_post.title }}</h3> /
+		<span>{{ blog_post.date_added|date:'H:i' }}</span> / <span style="text-transform: capitalize"> Автор: {{ blog_post.owner }}</span>
 		<p>{{ blog_post.text }}</p>
 		<p><a href="{% url 'blogs:edit_post' blog_post.id %}">Редактировать новость</a></p>
 	</li>
